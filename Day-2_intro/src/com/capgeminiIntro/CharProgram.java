@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class CharProgram {
 
 	public static void main(String[] args) {
-		//compile-time
-		//char x = 'a';
-		Scanner s=new Scanner(System.in);
-		char x=s.next().charAt();
-		System.out.println("the character is :" +x);
+		char char1='a';
+		char char2='A';
+		System.out.println("char1:" +char1);
+		System.out.println("char2:" +char2);
 		
 	}
 
