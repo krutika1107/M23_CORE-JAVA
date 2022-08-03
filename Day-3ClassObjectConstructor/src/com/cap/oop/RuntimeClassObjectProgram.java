@@ -20,7 +20,7 @@ public class RuntimeClassObjectProgram {
 		Vehicle obj = new Vehicle();
 		System.out.println("Enter value of a= ");
 		obj.a=s1.nextInt();
-		Vehicle obj=new Vehicle();
+		
 		obj.display();
 		System.out.println(obj.a);
 		s1.close();
