@@ -7,7 +7,7 @@ public class demopackage {
 
 	public static void main(String[] args) {
 		package1 p=new package1();
-		p.display(11,"Shraddha");
+		p.display(02,"Krutika");
 
 	}
 
