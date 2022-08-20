@@ -10,7 +10,7 @@ public class ThrowExample {
 		}
 		finally
 		{
-			System.out.println("Finally block is always executed");
+			System.out.println("Finally block  always executed");
 		}
 	}
 

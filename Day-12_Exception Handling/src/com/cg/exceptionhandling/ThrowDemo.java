@@ -14,7 +14,7 @@ public class ThrowDemo {
 	{
 		try
 		{
-			display(22,54);
+			display(23,54);
 		}
 		catch(ArithmeticException e)
 		{
