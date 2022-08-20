@@ -4,7 +4,7 @@ public class Example1 extends Thread
 {
 	public void run()
 	{
-		System.out.println("Thread is going to run");
+		System.out.println("Thread is going run");
 	}
 
 	public static void main(String[] args) 
