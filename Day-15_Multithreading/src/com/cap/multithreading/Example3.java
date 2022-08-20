@@ -10,7 +10,7 @@ class A
 				System.out.println(num*i);
 				try
 				{
-					Thread.sleep(400);
+					Thread.sleep(40);
 					
 				}
 				catch(Exception e)
