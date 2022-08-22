@@ -10,6 +10,8 @@ public class Example1 extends Thread
 	public static void main(String[] args) 
 	{
 		Example1 e=new Example1();
+	
+		
 		e.start();
 
 	}
