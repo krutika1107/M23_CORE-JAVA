@@ -1,10 +1,14 @@
 package com.cg.streams;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class FilterExample {
 
 	public static void main(String[] args) {
-		MaxFinder obj=(a,b)->a>b?a:b;
-		System.out.println("The greatest value is "+obj.maximum(23, 30));
+		List<String>obj1=Arrays.asList(new String[] {"Sara","Purva","Ved","Krutika"});
+		//to return the string whose length is greater than 3
+		obj1.stream().filter((i->i.length()>3)).forEach((i)->System.out.print(i+" "));
 
 	}
 
